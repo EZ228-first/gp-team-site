@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP TEAM | Официальный сайт</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0b0e11;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle, #1a1f26 0%, #0b0e11 100%);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo-placeholder {
+            width: 200px;
+            height: 200px;
+            border: 2px dashed #3498db;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            color: #3498db;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            color: #3498db;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 80px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        .roster-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .player-card {
+            background: #161b22;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border: 1px solid #30363d;
+        }
+
+        .player-card:hover {
+            transform: translateY(-10px);
+            border-color: #3498db;
+        }
+
+        .role {
+            font-size: 0.8rem;
+            color: #8b949e;
+            text-transform: uppercase;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #0d1117;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Сюда можно вставить ваше лого -->
+        <img src="gp team.jpg" alt="GP TEAM LOGO" style="width: 250px; height: auto; margin-bottom: 20px;">
+        <h1>GP TEAM</h1>
+        <p class="subtitle">Киберспортивная организация</p>
+    </header>
+
+    <section id="roster">
+        <h2>Состав команды</h2>
+        <div class="roster-grid">
+            <div class="player-card">
+                <div class="role">Captain / Carry</div>
+                <h3>fear of god</h3>
+            </div>
+            <div class="player-card">
+                <div class="role">Midlaner</div>
+                <h3>мазафакер</h3>
+            </div>
+            <div class="player-card">
+                <div class="role">Offlane</div>
+                <h3>пока хз</h3>
+            </div>
+            <div class="player-card">
+                <div class="role">Support</div>
+                <h3>пока хз</h3>
+            </div>
+            <div class="player-card">
+                <div class="role">Hard Support</div>
+                <h3>пока хз</h3>
+            </div>
+<div class="player-card" style="border-color: #f1c40f;">
+    <div class="role" style="color: #f1c40f;">Team Manager</div>
+    <h3>EZ228</h3>
+</div>
+        </div>
+    </section>
+
+    <section id="matches">
+        <h2>Ближайшие матчи</h2>
+        <p>На данный момент активных турниров нет. Следите за обновлениями!</p>
+    </section>
+
+    <footer>
+        &copy; 2026 GP TEAM. Все права защищены.
+    </footer>
+
+</body>
+</html>
